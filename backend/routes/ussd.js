@@ -5,7 +5,7 @@ const smsService = require("../services/smsService");
 const { normalizePhoneNumber } = require("../utils/phone");
 const Product = require("../models/Product");
 const Merchant = require("../models/Merchant");
-const aiService = require("../services/aiService");
+const aiService = require("../services/gemini");
 
 // In-memory customer session store (ephemeral).
 const customerSessions = new Map();
